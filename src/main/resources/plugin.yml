@@ -1,0 +1,7 @@
+name: IslandVault-API
+version: '1.0'
+main: de.tebrox.islandVaultAPI.IslandVaultAPI
+api-version: '1.21'
+load: STARTUP
+authors: [ Tebrox ]
+description: API for the IslandVault plugin
