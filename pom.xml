@@ -1,19 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
-<modelVersion>4.0.0</modelVersion>
-<groupId>de.tebrox</groupId>
-<artifactId>IslandVault-API</artifactId>
-<version>1.0.0</version>
-<name>IslandVault API</name>
-<description>Addon-API für das Insellager Plugin</description>
-<url>https://github.com/tebrox/IslandVault-API</url>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>de.tebrox</groupId>
+    <artifactId>IslandVault-API</artifactId>
+    <version>1.0.0</version>
+    <name>IslandVault API</name>
+    <description>Addon-API für das Insellager Plugin</description>
+    <url>https://github.com/tebrox/IslandVault-API</url>
 
-<dependencies>
-    <dependency>
-        <groupId>org.spigotmc</groupId>
-        <artifactId>spigot-api</artifactId>
-        <version>1.21.4-R0.1-SNAPSHOT</version>
-        <scope>provided</scope>
-    </dependency>
-</dependencies>
+    <repositories>
+        <repository>
+            <id>spigot-repo</id>
+            <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.spigotmc</groupId>
+            <artifactId>spigot-api</artifactId>
+            <version>1.21.4-R0.1-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
 </project>
